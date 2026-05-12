@@ -1,0 +1,332 @@
+body{
+    font-family: 'segoe ui light';
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+a:hover{
+    color: white;
+}
+li{
+    list-style-type: none;
+    padding-right: 10px;
+}
+.firstpage{
+    background-image: url(assignment6-images/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.headercontent h1{
+    font-size: 500%;
+}
+
+.photo{
+    width: 25%;
+}
+.photo img{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.motion h2{
+    font-size: 200%;
+}
+.motion h2::before{
+    content: '|';
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+.navbarr{
+    height: 60px;
+    position: fixed;
+    z-index: 999;
+}
+.details{
+    font-weight: 300;
+    font-size: 40%;
+}
+.page2{
+    height: 110vh;
+}
+.skills{
+    width: 90%;
+}
+.item h2{
+    font-weight: 900;
+}
+.item h4{
+    font-weight: 100;
+}
+.item1{
+    width: 100%;
+    height: 13px;
+    background-color: cornflowerblue;
+    opacity: 0.4;
+    position: relative;
+}
+.inneritem1{
+    position: absolute;
+    z-index: 999999;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    width: 85%;
+    height: 100%;
+    background-color: blue;  
+}
+.inneritem2{
+    position: absolute;
+    z-index: 999999;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    width: 73%;
+    height: 100%;
+    background-color: blue;  
+}
+.inneritem3{
+    position: absolute;
+    z-index: 999999;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    width: 50%;
+    height: 100%;
+    background-color: blue;  
+}
+.inneritem4{
+    position: absolute;
+    z-index: 999999;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    width: 90%;
+    height: 100%;
+    background-color: blue;  
+}
+.smallline{
+    width: 120px;
+    height: 5px;
+    background-color: blue;
+}
+.half2 .part2{
+    font-weight: 600;
+    font-size: 120%;
+}
+.page3 .header h1{
+    font-size: 400%;
+    font-weight: 900;
+}
+.centerline{
+    width: 50px;
+    height: 5px;
+    background-color: aqua;
+    margin-left: 300px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border: 10px solid blue;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+i{
+    font-size: 200%;
+}
+.page3{
+    height: 150vh;
+}
+.page3 .col-3:hover i{
+    color: white;
+}
+.page3 .col-3:hover .icon{
+    background-color: blue;
+    opacity: 0.9;
+}
+.page3 .col-3:hover .icon{
+    border: 10px solid rgb(150, 150, 173);
+}
+.page4{
+    width: 100%;
+    height: 60vh;
+    background-image: url(assignment6-images/post-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.page4 .upperpage
+{
+    background-color: blue;
+    opacity: 0.6;
+    z-index: 1;
+}
+.container{
+    left: 50px;
+    top: 100px;
+    z-index: 2;
+}
+.icon1{
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.page5{
+    height: 150vh;
+    overflow: hidden;
+}
+
+.page5 .col-4 .photo{
+    overflow: hidden;
+}
+.s{
+    color: aqua;
+}
+.page5 .icon{
+    width: 50px;
+    height: 50px;
+    border: 5px solid blue;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.plus{
+    color: blue;
+}
+.zoom{
+    overflow: hidden;
+}
+.zoom:hover .photo img{
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+}
+.photo img{
+    transition-duration: 1.5s;
+}
+.page6{
+    height: 90vh;
+    background-image: url(assignment6-images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.page6 .upperpage
+{
+    background-color: blue;
+    opacity: 0.6;
+    z-index: 1;
+}
+.page7 .centerline{
+    margin-right: 300px;
+}
+.aa{
+    font-size: 400%;
+}
+.list-group-item .part1{
+    width: 60%;
+}
+.list-group-item .part2{
+    width: 40%;
+}
+.page8{
+    height: 100vh;
+    background-image: url(assignment6-images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.page8 .upperpage{
+    background-color:cadetblue;
+    opacity: 0.6;
+    z-index: 10;
+    height: 85%;
+}
+@keyframes move {
+    0%{     content: ''}
+    1%{     content: 'F'}    
+    3%{     content: 'Fu'}    
+    4%{     content: 'Ful|'}    
+    6%{     content: 'Full'}    
+    7%{     content: 'Full-'}    
+    9%{     content: 'Full-S'}    
+    10%{     content: 'Full-St'}    
+    11%{     content: 'Full-Sta'}    
+    13%{     content: 'Full-Stac'}    
+    14%{     content: 'Full-Stack'}    
+    16%{     content: 'Full-Stack w'}
+    17%{     content: 'Full-Stack we'}    
+    19%{     content: 'Full-Stack web'}    
+    20%{     content: 'Full-Stack web d'}    
+    22%{     content: 'Full-Stack web de'}    
+    23%{     content: 'Full-Stack web dev'}    
+    25%{     content: 'Full-Stack web deve'} 
+    26%{     content: 'Full-Stack web devel'} 
+    28%{     content: 'Full-Stack web develo'} 
+    29%{     content: 'Full-Stack web develop'}
+    31%{     content: 'Full-Stack web develope'}
+    32%{     content: 'Full-Stack web developer'}
+    34%{     content: 'Full-Stack web develope'}
+    35%{     content: 'Full-Stack web develop'}
+    37%{     content: 'Full-Stack web develo'} 
+    38%{     content: 'Full-Stack web devel'}
+    40%{     content: 'Full-Stack web deve'}
+    41%{     content: 'Full-Stack web dev'}
+    43%{     content: 'Full-Stack web de'}
+    44%{     content: 'Full-Stack web d'}
+    45%{     content: 'Full-Stack web '}
+    47%{     content: 'Full-Stack web'}
+    48%{     content: 'Full-Stack we'}
+    50%{     content: 'Full-Stack w'}
+    51%{     content: 'Full-Stack '}
+    53%{     content: 'Full-Stack'}
+    54%{     content: 'Full-Stac'}
+    56%{     content: 'Full-Sta'}
+    57%{     content: 'Full-St'}
+    58%{     content: 'Full-S'}
+    60%{     content: 'Full-'}
+    61%{     content: 'Full'}
+    66%{     content: 'Ful'}
+    67%{     content: 'Fu'}
+    69%{     content: 'F'}
+    70%{     content: ''}
+    72%{     content: 'P'}
+    73%{     content: 'Pr'}
+    75%{     content: 'Pro'}
+    76%{     content: 'Prog'}
+    78%{     content: 'Progr'}
+    79%{     content: 'Progra'}
+    81%{     content: 'Program'}
+    83%{     content: 'Programm'}
+    84%{     content: 'Programme'}
+    85%{     content: 'programmer'}
+    86%{     content: 'Programme'}
+    87%{     content: 'Programm'}
+    88%{     content: 'Program'}
+    89%{     content: 'Progra'}
+    90%{     content: 'Progr'}
+    91%{     content: 'Prog'}
+    92%{     content: 'Pro'}
+    93%{     content: 'Pr'}
+    94%{     content: 'P'}
+    100%{     content: ''}
+}
